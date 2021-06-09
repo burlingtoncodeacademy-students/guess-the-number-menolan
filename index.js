@@ -9,6 +9,9 @@ function ask(questionText) {
 
 start();
 
+// here we goooo
+
+
 async function start() {
   console.log("Let's play a game where you (human) make up a number and I (computer) try to guess it.")
   let secretNumber = await ask("What is your secret number?\nI won't peek, I promise...\n");
